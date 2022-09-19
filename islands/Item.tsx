@@ -36,12 +36,14 @@ export default function Item({ item }) {
 
         if (todo.id) {
             //  call delete api
-            fetch(domain + `/api/delete?todoID=${encodeURIComponent(todo.id)}`)
+           
+            fetch(`/api/delete?todoID=${encodeURIComponent(todo.id)}`)
                 .then((res) => res.json())
                 .then((data) => {
                     console.log("your data submit sucessfully ");
                     setSuccessful(true)
                 });
+                
         }
     }
 

@@ -43,6 +43,7 @@ export default function Home({data}: { data: any; }) {
     <div class="h-screen w-screen flex flex-col items-center justify-center bg-blue-600 font-sans">
       <div class="flex flex-row w-4/6 justify-center mx-auto">
         <h2 class="m-2 p-1 text-5xl font-mono font-serif cursor-pointer">Deno</h2>
+        <h2 class="m-2 p-1 text-5xl font-mono font-serif cursor-pointer">+</h2>
         <h2 class="m-2 p-1 text-5xl font-mono font-serif cursor-pointer">SurrealDB</h2>
       </div>
 

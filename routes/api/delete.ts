@@ -10,7 +10,7 @@ export async function handler(_req: Request, _ctx: HandlerContext) {
     const url = new URL(_req.url);
 
     // get todo id base on id we delete todo.
-    const todoid = url.searchParams.get("todoID") || "";
+    const todoid = url.searchParams.get("todoID") || "";  
 
 
     try {
