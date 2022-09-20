@@ -11,8 +11,7 @@ export async function handler(_req: Request, _ctx: HandlerContext) {
 
     // get todo id base on id we delete todo.
     const todoid = url.searchParams.get("todoID") || "";  
-
-
+    
     try {
 
         // delete specify todo item 
