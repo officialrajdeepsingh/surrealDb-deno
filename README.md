@@ -2,7 +2,7 @@
 surrealDb-deno project design with the fresh framework and surrealDb database. You can easily start working with surrealDbn using with integration library. I use the surrealDb deno module in this demo to create a todo web.
 
 
-#### Don't crisite my typescript code.
+#### Don't criticize my typescript code.
 
 
 ## DEMO
